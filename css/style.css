@@ -1,0 +1,212 @@
+:root{
+    --colo0:#000000;
+  --color1_text:#49B649;
+  --color1:#49B649;
+  --color2:#ffffff;
+
+        
+
+    
+    
+     
+}
+.glavn{
+    background-color:var(--colo0) ;
+}
+
+.menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+
+
+}
+.btn_menu{
+    width: 113px;
+    height: 30px;
+    background-color: var(--color1);
+    border-radius: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.active{
+    color: var(--color1);
+}
+.pos{
+    color: var(--color2);
+}
+.blok_menu_elem{
+    margin-left:40%;
+    display: flex;
+    margin-top: 60px;
+
+}
+.menu_elem{
+    margin-left:40px;
+    cursor: pointer;
+}
+.text_center{
+    text-align:center;
+}
+.text1{
+    font-size: 300%;
+    margin-top: 100px;
+
+}
+.img1{
+    margin-top:40px;
+    width: 85%;
+}
+.btn02{
+    margin-left: 40px;
+    background-color: var(--color1);
+    width: 197px;
+    height:63px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn03{
+    margin-left: 40px;
+    background-color: var(--color1);
+    width: 296px;
+    height:63px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topbtn1{
+    margin-top: 40px;
+}
+.img100{
+    width: 100%;
+    height: auto;
+}
+.div1{
+    width: 266px;
+    
+}
+.img43{
+    float: left;
+    width: 30px;
+}
+.div_content1{
+    display: flex;
+}
+.marl{
+    margin-left: 40px;
+}
+.martop{
+    margin-top: 3px;
+}
+.div2{
+    width: 800px;
+    position: relative;
+    left: 329px;
+}
+.div_center{
+    display: table; margin: 0 auto; text-align: center;
+}
+.glavn{
+    overflow-x: none;
+}
+.text_con3{
+    margin-left:40px;
+}
+.line{
+    width: 147px;
+    height: 7px;
+    background-color: var(--color1);
+}
+.marl4{
+    margin-left: 460px;
+}
+.conmar{
+    margin-top: 120px;
+}
+.content6{
+/* Местоположение фоновой картинки */   background-image: url("/img/mon.png");      
+/* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;      
+/* Фон не повторяется */   background-repeat: no-repeat;      
+/* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */   background-attachment: fixed;      
+/* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+
+}
+.footer{
+    position: relative;
+    top: 100px;
+    /* Местоположение фоновой картинки */   background-image: url("/img/footer.png");      
+    /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;      
+    /* Фон не повторяется */   background-repeat: no-repeat;      
+    
+    /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;  
+    background-color: #000000;    
+    
+    }
+    .input{
+        position: relative;
+        left: -130px;
+        width: 400px;
+        height: 38px;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid white;
+        
+    }
+    .inp_btn{
+        position: absolute;
+        top:22%;
+        left: 91%;
+        
+        width: 80px;
+        height: 28px;
+        background-color: var(--color1);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+
+
+    /*--------------------------------mobile 720 p----------------*/
+
+    @media only screen  and (max-width:900px){
+        .blok_menu_elem{
+            display: none;
+        }
+        .pc{
+            display: none;
+
+        }
+        .center_mob_div{
+            display: table; margin: 0 auto; text-align: center;
+
+        }
+        
+        .div2{
+            width: 100%;
+            position: relative;
+            left: 0px;
+        }
+        .mob_img_100{
+            width: 100%;
+        }
+        .input{
+            position: relative;
+            left: 0px;
+            width: 100%;
+     
+
+            
+        }
+        .inp_btn{
+            position: absolute;
+            top: 91%;
+            left: 77%;
+            
+
+        }
+        .marl4 {
+            margin-left: 50%;
+        }
+    
+    }
